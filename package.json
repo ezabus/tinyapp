@@ -1,0 +1,26 @@
+{
+  "name": "uiveri5-sample",
+  "version": "1.0.0",
+  "private": true,
+  "devDependencies": {
+    "custdev-sapui5-infra-util": "3.2.0",
+    "grunt": "1.0.3",
+    "grunt-cli": "1.3.2"
+  },
+  "sapui5": {
+    "version": "1.52.22",
+    "resources": "http://localhost:7999/resources/",
+    "testResources": "http://localhost:7999/test-resources",
+    "libs": {},
+    "apps": {
+      "tinyapp": {
+        "namespace": "org.tinyapp",
+        "resources": "tinyapp/webapp",
+        "testResources": "tinyapp/webapp/test"
+      }
+    },
+    "proxies": {},
+    "profiles": {},
+    "defaultPage": "webapp/test/FLPSandbox.html"
+  }
+}
