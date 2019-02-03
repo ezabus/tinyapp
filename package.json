@@ -24,8 +24,5 @@
     "proxies": {},
     "profiles": {},
     "defaultPage": "webapp/test/FLPSandbox.html"
-  },
-  "dependencies": {
-    "custdev-sapui5-infra-util": "3.2.0"
   }
 }
