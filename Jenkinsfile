@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'grunt build'
+                sh 'npm run build'
             }
         }
         stage('test') {

@@ -2,6 +2,9 @@
   "name": "uiveri5-sample",
   "version": "1.0.0",
   "private": true,
+  "scripts": {
+      "build": "grunt build"
+  },
   "devDependencies": {
     "custdev-sapui5-infra-util": "3.2.0",
     "grunt": "1.0.3",
