@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                sh 'echo \'Build the SAP UI5 project...\''
+                sh 'grunt build'
             }
         }
         stage('test') {
