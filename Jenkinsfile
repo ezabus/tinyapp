@@ -1,12 +1,9 @@
 pipeline {
-    agent {
-        docker {
-            image 'node:latest'
-        }
-    }
+    agent any
     stages {
         stage('build') {
             steps {
+                sh 'whoami'
                 sh 'npm run build'
             }
         }
