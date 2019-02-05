@@ -6,6 +6,7 @@ sap.ui.define([
 		return Controller.extend("org.tinyapp.controller.App", {
 
 			onInit : function () {
+                
 			}
 
 		});
